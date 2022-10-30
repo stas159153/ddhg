@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face{
+    src: url(MontserratAlternates-SemiBold.ttf);
+    font-weight: 700;
+    font-family: Montserrat;
+}
+.header{
+    height: 100vh;
+    background-image: url(./maket-2/image);
+    background-size: cover;
+    background-position:bottom ;
+}
+.wrapper{
+    margin: auto;
+    width: 75%;
+}
+.header__link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.header__conteiner-links{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    width: 400px;
+}
+.conteiner-links__text{
+    font-family:Montserrat;
+    font-weight: 700;
+    font-size: 18px;
+}
+.title-text{
+    color: white;
+    font-size: 60px;
+    font-family: Montserrat;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 20vh;
+}
+@media(max-width:800px){
+    
+.header__logo{
+    margin: auto;
+    margin-bottom: 30px;
+}
+.header__icon{
+    margin: auto;
+}
+.header__conteiner-links{
+    margin-bottom: 30px;
+}
+    
+}
